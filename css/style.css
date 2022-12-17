@@ -15,7 +15,6 @@
 	font-weight: 500;
 	font-size: 20px;
 	color: rgba(21, 118, 152, 1);
-	padding-right: 30px;
 }
 .main{
 	max-width: 1200px;
@@ -76,12 +75,14 @@
 .footer {
 	max-width: 1200px;
 	margin: 0 auto;
-  left: 0;
-  bottom: 0;
   width: 100%;
 	display: flex;
 	justify-content: flex-end;
 	gap: 20px;
+	font-weight: 300;
+	color: rgba(169, 169, 169, 1);
+	font-family: "Roboto", sans-serif;
+	font-size: 10px;
 }
 .link::before{
 	content: '©2022';
@@ -89,5 +90,59 @@
 }
 .logo{
 	width: 50px;
-	height: 50px;
+	height: auto;
+}
+@media (max-width: 768px){
+	.nav-list{
+		column-gap: 20px;
+		font-size: 15px;
+	}
+}
+@media (max-width: 560px){
+	.nav-list{
+		column-gap: 7px;
+		font-size: 10px;
+	}
+	.my-name h1{
+		padding-left: 15px;
+		font-size: 30px;
+	}
+	.my-name h2{
+		padding-left: 15px;
+		font-size: 10px;
+	}
+	.preview img{
+		max-width: 100px;
+		padding-bottom: 5px;
+	}
+	.information h2{
+		font-size: 15px;
+	}
+	.inf-list{
+		font-size: 10px;
+	}
+	.information p{
+		font-size: 10px;
+	}
+	.footer{
+
+	}
+}
+@media (max-width: 350px){
+	.nav-list{
+		column-gap: 5px;
+		font-size: 9px;
+	}
+	.my-name h1{
+		padding-left: 15px;
+		font-size: 25px;
+	}
+	.my-name h2{
+		padding-left: 15px;
+		font-size: 9px;
+	}
+	.preview img{
+		max-width: 90px;
+		padding-bottom: 5px;
+	}
 }
