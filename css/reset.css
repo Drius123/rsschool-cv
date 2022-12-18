@@ -17,7 +17,7 @@
 
 a:focus,
 a:active {
-	/* outline: none;*/
+	text-decoration: none;/* outline: none;*/
 }
 
 /* Links */

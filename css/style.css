@@ -82,14 +82,14 @@
 	font-weight: 300;
 	color: rgba(169, 169, 169, 1);
 	font-family: "Roboto", sans-serif;
-	font-size: 10px;
+	font-size: 15px;
 }
 .link::before{
 	content: '©2022';
 	padding-right: 5px;
 }
 .logo{
-	width: 50px;
+	width: 70px;
 	height: auto;
 }
 @media (max-width: 768px){
