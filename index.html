@@ -9,7 +9,7 @@
 </head>
 <body>
 	<header class="header">
-		<div class="header-nav"></div>
+		<div class="header-nav">
 			<nav id="nav" class="nav">
 				<ul class="nav-list">
 					<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -58,15 +58,15 @@
 			</div>
 			<div id='code' class="container">
 				<h2>CODE</h2>
-				<p>function spinWords(string){<br>
-					&nbsplet arr = string.split(" ");<br>
-					&nbspfor (let word of arr){<br>
-						&nbsp&nbspif(word.length > 4){<br>
-							&nbsp&nbsp&nbsparr.splice(arr.indexOf(word), 1, word.split("").reverse().join(""));<br>
-							&nbsp&nbsp}<br>
-							&nbsp}<br>
-							&nbspreturn arr.join(" ");<br>
-				}</p>
+				<pre>function moveZeros(arr) {
+ for (let symb of arr){
+  if (symb === 0){
+   arr.splice(arr.indexOf(0), 1);
+   arr.push(0);
+  }
+ }
+return arr;
+}</pre>
 			</div>
 			<div id='courses' class="container">
 				<h2>COURSES</h2>
@@ -78,7 +78,7 @@
 			<div id='projects' class="container">
 				<h2>PROJECTS</h2>
 				<ul class="inf-list">
-					<li>Adventure-portal</li>
+					<li>Adventure-portal(<a href=""></a></li>
 				</ul>
 			</div>
 			<div id='education' class="container">
